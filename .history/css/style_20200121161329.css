@@ -1,0 +1,111 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #5407A1 !important;
+    color: #fff !important;
+    font-family: 'Baloo Bhai', cursive;
+    position: relative;
+}
+
+.back_img {
+    background-image: url(../img/back.png);
+    height: 350px;
+    width: 600px;
+    position: absolute;
+    background-position: center center;
+    background-size: cover;
+    opacity: 5%;
+    /* top: 30%; */
+    right: 0;
+}
+
+
+/* header */
+
+.wrap_hayday .navbar {
+    box-shadow: none;
+}
+
+.wrap_hayday nav .nav-link {
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+    color: #fff;
+    font-family: 'Baloo Bhai', cursive;
+}
+
+.wrap_hayday .border_deco {
+    border-bottom: .25px solid #fff;
+}
+
+.wrap_hayday nav .nav-link:hover {
+    color: #FF0000;
+    transition-duration: 0.5s;
+}
+
+.wrap_hayday .navbar {
+    padding: 40px;
+    padding-bottom: 0;
+}
+
+
+/* header */
+
+
+/* middle body */
+
+.wrap_hayday .middle_body {
+    text-align: center;
+}
+
+.wrap_hayday .middle_body .logo img {
+    /* background-image: url(logo.png); */
+    height: 100px;
+}
+
+
+/* middle body */
+
+
+/* footer-body */
+
+.myprogress {
+    min-width: 100%;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.myprogress .circle,
+.myprogress .bar {
+    display: inline-block;
+    background: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 80px;
+    border: 1px solid #d5d5da;
+}
+
+.myprogress .bar {
+    position: relative;
+    width: 100px;
+    height: 2px;
+    top: -5px;
+    border: 0px solid #fff;
+}
+
+.myprogress .circle .label {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 30px;
+    border-radius: 40px;
+    font-size: 24px;
+}
+
+.myprogress .circle .title {
+    color: #b5b5ba;
+    font-size: 24px;
+    line-height: 50px;
+}
+
+
+/* footer-body */

@@ -1,0 +1,116 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #5407A1 !important;
+    color: #fff !important;
+    font-family: 'Baloo Bhai', cursive;
+    position: relative;
+}
+
+.back_img {
+    background-image: url(back.png);
+    height: 350px;
+    width: 600px;
+    position: absolute;
+    background-position: center center;
+    background-size: cover;
+    opacity: 5%;
+    /* top: 30%; */
+    right: 0;
+}
+
+
+/* header */
+
+.wrap_hayday nav .nav-link {
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+    color: #fff;
+    font-family: 'Baloo Bhai', cursive;
+}
+
+.wrap_hayday .border_deco {
+    border-bottom: .25px solid #fff;
+}
+
+.wrap_hayday nav .nav-link:hover {
+    color: #FF0000;
+    transition-duration: 0.5s;
+}
+
+.wrap_hayday .navbar {
+    padding: 40px;
+    padding-bottom: 0;
+}
+
+
+/* header */
+
+
+/* middle body */
+
+.wrap_hayday .middle_body {
+    position: relative;
+}
+
+.wrap_hayday .middle_body .logo img {
+    /* background-image: url(logo.png); */
+    height: 150px;
+}
+
+
+/* middle body */
+
+
+/* footer-body */
+
+.loader {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    border: 2px solid #fff;
+    position: relative;
+    margin: 20px;
+}
+
+.loader:hover {
+    height: 100px;
+    width: 380px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+    position: relative;
+    transition-duration: 0.5s;
+}
+
+
+/* .loader_inner {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.loader_inner:hover {
+    height: 100px;
+    width: 380px;
+    border: 10px solid #FF0000;
+    position: absolute;
+    top: 0;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: transparent;
+    -webkit-animation-name: slideInLeft;
+    animation-name: slideInLeft;
+    transition-duration: 0.2s;
+} */
+
+
+/* footer-body */

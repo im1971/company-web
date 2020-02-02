@@ -1,0 +1,604 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #5407A1 !important;
+    color: #fff !important;
+    font-family: 'Baloo Bhai', cursive;
+    position: relative;
+}
+
+
+/* global */
+
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    /* Remove scrollbar space */
+    background: transparent;
+    /* Optional: just make scrollbar invisible */
+}
+
+
+/* Optional: show position indicator in red */
+
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+
+
+/* global */
+
+.back_img {
+    background-image: url(../img/back.png);
+    height: 350px;
+    width: 600px;
+    position: absolute;
+    background-position: center center;
+    background-size: cover;
+    opacity: 5%;
+    /* top: 30%; */
+    right: 0;
+}
+
+
+/* header */
+
+.wrap_hayday .navbar {
+    box-shadow: none;
+}
+
+.wrap_hayday .container-fluid {
+    min-height: 100vh;
+}
+
+.wrap_hayday nav .nav-link {
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+    color: #fff;
+    font-family: 'Baloo Bhai', cursive;
+}
+
+.wrap_hayday .border_deco {
+    border-bottom: .25px solid #fff;
+}
+
+.wrap_hayday nav .nav-link:hover {
+    color: #FF0000;
+    transition-duration: 0.5s;
+}
+
+.wrap_hayday .navbar {
+    padding: 40px;
+    padding-bottom: 0;
+}
+
+
+/* header */
+
+
+/* middle body */
+
+.wrap_hayday .middle_body {
+    text-align: center;
+}
+
+.wrap_hayday .middle_body .logo img {
+    /* background-image: url(logo.png); */
+    height: 100px;
+}
+
+.wrap_hayday .others_page_middle {
+    text-align: center;
+    position: absolute;
+    right: 30px;
+    bottom: 0;
+}
+
+.wrap_hayday .others_page_middle img {
+    height: 70px;
+}
+
+
+/* middle body */
+
+
+/* footer-body */
+
+.myprogress {
+    min-width: 100%;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.myprogress .circle {
+    display: inline-block;
+    background: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 80px;
+    border: 1px solid #d5d5da;
+    cursor: pointer;
+}
+
+.myprogress .circle:hover {
+    background: #FF0000;
+    color: #5407A1;
+    transition-duration: 0.5s;
+}
+
+.myprogress .bar {
+    position: relative;
+    width: 100px;
+    padding-right: 15px;
+    font-family: none;
+    /* height: 2px; */
+    /* top: 10px; */
+    /* border: 0px solid #fff; */
+}
+
+.myprogress .circle .label {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 30px;
+    border-radius: 40px;
+    font-size: 24px;
+}
+
+.myprogress .circle .title {
+    color: #5407A1;
+    font-size: 24px;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+.myprogress .circle .title:hover {
+    color: #fff;
+}
+
+.myprogress i {
+    font-size: 11px;
+}
+
+.myprogress .abc {
+    animation: pulse 1s infinite;
+    color: #FF0000;
+}
+
+.myprogress .pulse {
+    -webkit-animation-duration: 3s;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-iteration-count: 5;
+}
+
+
+/* footer-body */
+
+
+/* about hayday */
+
+.accordion .card-header {
+    padding: 0;
+    background: #5407A1;
+    margin-bottom: 0;
+}
+
+.accordion .card-header .btn-link {
+    color: #fff;
+    padding: 0;
+}
+
+.accordion .card {
+    border: none;
+    border-radius: 0;
+}
+
+.accordion i {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
+
+.accordion p {
+    color: #000;
+    font-family: serif;
+    font-size: 15px;
+}
+
+.accordion h4 {
+    color: #000;
+    font-family: serif;
+    font-weight: 700 !important;
+    font-size: 22px;
+}
+
+
+/* about hayday */
+
+
+/* work with us */
+
+.outreach table.table th,
+table.table td {
+    padding: 3px 20px;
+    color: #fff;
+    border: none;
+    font-family: auto;
+}
+
+
+/* work with us */
+
+
+/* pricing table */
+
+
+/* 
+section>div.all-plans {
+    width: 100%;
+    margin-bottom: 1.9%;
+} */
+
+.price-package {
+    padding-top: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10px;
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    -moz-border-radius-bottomright: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+}
+
+.price-package .package-name {
+    font-size: 1.4rem;
+}
+
+
+/* @media only screen and (max-width: 529px) {
+    .price-package {
+        padding-top: 1rem;
+    }
+} */
+
+.price-package .package-price {
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10px;
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    -moz-border-radius-bottomright: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    margin-top: 25px;
+}
+
+
+/* @media only screen and (max-width: 529px) {
+    .price-package .package-price {
+        margin-top: 1rem;
+    }
+} */
+
+
+/* .price-package .package-price .price {
+    position: relative;
+    display: inline-block;
+} */
+
+.price-package .package-price .price sup {
+    font-size: 1.6rem;
+    position: absolute;
+    top: 6px;
+    left: -12px;
+}
+
+.price-package .package-price .price span {
+    font-size: 2.5rem;
+}
+
+
+/* .price-package .package-price .term {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    padding-top: 6px;
+} */
+
+
+/* .price-package .package-price .term sup {
+    font-size: 1.7rem;
+    display: block;
+    padding: 0;
+}
+
+.price-package .package-price .term span {
+    font-size: 1rem;
+    display: block;
+    margin-top: -3px;
+} */
+
+
+/* .price-package .package-features {
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10px;
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    -moz-border-radius-bottomright: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    margin-top: 16.66666667px;
+} */
+
+
+/* .price-package .package-features ul {
+    font-size: 1.6rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+} */
+
+.price-package .package-features ul li {
+    margin: 20px auto;
+    padding: 0;
+}
+
+
+/* @media only screen and (max-width: 529px) {
+    .price-package .package-features ul li {
+        margin: 10px auto;
+    }
+} */
+
+.price-package .sign-up {
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10px;
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    -moz-border-radius-bottomright: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    padding: 16.66666667px 0;
+    margin-top: 16.66666667px;
+    width: 100%;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.price-package .package-arrow {
+    width: 0;
+    height: 0;
+    margin: 0 auto 12.5px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 8px solid;
+}
+
+
+/*price-package*/
+
+.all-plans .all-plans-features {
+    display: table;
+    width: 100%;
+}
+
+.all-plans .all-plans-features text {
+    display: table-cell;
+    font-size: 1.6rem;
+    vertical-align: middle;
+    width: 33%;
+}
+
+
+/* @media only screen and (max-width: 529px) {
+    .all-plans .all-plans-features text {
+        display: block;
+        margin: 10px auto;
+    }
+} */
+
+.average .price-package {
+    background-color: #009a86;
+    /*arrow creation*/
+    /*/arrow creation*/
+}
+
+.average .price-package .package-name {
+    color: white;
+}
+
+.average .price-package .package-price {
+    background-color: #66CAA6;
+    color: white;
+}
+
+.average .price-package .package-features {
+    background-color: #e0f2ed;
+    color: #009a86;
+}
+
+.average .price-package .sign-up {
+    background-color: #009a86;
+    color: white;
+    transition: background-color 0.5s ease;
+}
+
+.average .price-package .sign-up:hover {
+    background-color: #66CAA6;
+}
+
+.average .price-package .sign-up:active {
+    background-color: #e0f2ed;
+}
+
+.average .price-package .package-price .package-arrow {
+    border-top-color: #009a86;
+}
+
+.average .price-package .package-features .package-arrow {
+    border-top-color: #66CAA6;
+}
+
+.average .price-package .sign-up .package-arrow {
+    border-top-color: #e0f2ed;
+}
+
+.special .price-package {
+    background-color: #8654ff;
+    /*arrow creation*/
+    /*/arrow creation*/
+}
+
+.special .price-package .package-name {
+    color: white;
+}
+
+.special .price-package .package-price {
+    background-color: #b191ff;
+    color: white;
+}
+
+.special .price-package .package-features {
+    background-color: #efe9fc;
+    color: #8654ff;
+}
+
+.special .price-package .sign-up {
+    background-color: #8654ff;
+    color: white;
+    transition: background-color 0.5s ease;
+}
+
+.special .price-package .sign-up:hover {
+    background-color: #b191ff;
+}
+
+.special .price-package .sign-up:active {
+    background-color: #efe9fc;
+}
+
+.special .price-package .package-price .package-arrow {
+    border-top-color: #8654ff;
+}
+
+.special .price-package .package-features .package-arrow {
+    border-top-color: #b191ff;
+}
+
+.special .price-package .sign-up .package-arrow {
+    border-top-color: #efe9fc;
+}
+
+.superduper .price-package {
+    background-color: #00b9f2;
+    /*arrow creation*/
+    /*/arrow creation*/
+}
+
+.superduper .price-package .package-name {
+    color: white;
+}
+
+.superduper .price-package .package-price {
+    background-color: #7dd4fe;
+    color: white;
+}
+
+.superduper .price-package .package-features {
+    background-color: #e0f2fa;
+    color: #00b9f2;
+}
+
+.superduper .price-package .sign-up {
+    background-color: #00b9f2;
+    color: white;
+    transition: background-color 0.5s ease;
+}
+
+.superduper .price-package .sign-up:hover {
+    background-color: #7dd4fe;
+}
+
+.superduper .price-package .sign-up:active {
+    background-color: #e0f2fa;
+}
+
+.superduper .price-package .package-price .package-arrow {
+    border-top-color: #00b9f2;
+}
+
+.superduper .price-package .package-features .package-arrow {
+    border-top-color: #7dd4fe;
+}
+
+.superduper .price-package .sign-up .package-arrow {
+    border-top-color: #e0f2fa;
+}
+
+.all-plans .price-package {
+    background-color: #646c7f;
+    /*arrow creation*/
+    /*/arrow creation*/
+}
+
+.all-plans .price-package .package-name {
+    color: white;
+}
+
+.all-plans .price-package .package-price {
+    background-color: #8b94ab;
+    color: white;
+}
+
+.all-plans .price-package .package-features {
+    background-color: #e5ebf4;
+    color: #646c7f;
+}
+
+.all-plans .price-package .sign-up {
+    background-color: #646c7f;
+    color: white;
+    transition: background-color 0.5s ease;
+}
+
+.all-plans .price-package .sign-up:hover {
+    background-color: #8b94ab;
+}
+
+.all-plans .price-package .sign-up:active {
+    background-color: #e5ebf4;
+}
+
+.all-plans .price-package .package-price .package-arrow {
+    border-top-color: #646c7f;
+}
+
+.all-plans .price-package .package-features .package-arrow {
+    border-top-color: #8b94ab;
+}
+
+.all-plans .price-package .sign-up .package-arrow {
+    border-top-color: #e5ebf4;
+}
+
+.all-plans .package-features .package-arrow {
+    border-top-color: #646c7f !important;
+    /*! overrides arrow color*/
+}
+
+.all-plans .package-features {
+    padding-bottom: 20px;
+}
+
+
+/* pricing table */
