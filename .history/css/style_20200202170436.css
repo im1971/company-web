@@ -84,6 +84,11 @@ html {
     height: 50vh;
 }
 
+.wrap_hayday .sponsor_slider {
+    position: absolute;
+    bottom: 20px;
+}
+
 .wrap_hayday .middle_body {
     text-align: center;
 }
@@ -585,6 +590,9 @@ Calendar Styling */
 @media (max-width: 567px) {
     .wrap_hayday .navbar {
         padding: 20px 0 0;
+    }
+    .wrap_hayday .sponsor_slider {
+        position: relative;
     }
     .fa-bars {
         color: #fff !important;

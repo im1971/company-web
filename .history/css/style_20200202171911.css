@@ -50,7 +50,7 @@ html {
 }
 
 .wrap_hayday .container-fluid {
-    min-height: 100vh;
+    /* min-height: 100vh; */
 }
 
 .wrap_hayday nav .nav-link {
@@ -81,7 +81,7 @@ html {
 /* middle body */
 
 .wrap_hayday .middle_body_height {
-    height: 50vh;
+    /* height: 50vh; */
 }
 
 .wrap_hayday .middle_body {
@@ -598,7 +598,7 @@ Calendar Styling */
         width: 200px;
     }
     .wrap_hayday .middle_body_height {
-        height: 35vh;
+        /* height: 35vh; */
     }
     .myprogress .circle {
         display: block;

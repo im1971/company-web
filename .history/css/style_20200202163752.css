@@ -252,7 +252,6 @@ html {
     padding: 0;
     background: #5407A1;
     margin-bottom: 0;
-    cursor: pointer;
 }
 
 .accordion .card-header .btn-link {
@@ -367,15 +366,10 @@ table.table td {
 }
 
 .wrap_event {
-    color: #fff;
+    color: #000;
     text-align: center;
     position: relative;
     font-family: auto;
-    background: #9100ff3b;
-}
-
-.wrap_event .fas {
-    font-size: 12px;
 }
 
 .slider_wrap .d-block {
