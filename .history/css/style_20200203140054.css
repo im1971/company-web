@@ -242,11 +242,6 @@ html {
     padding-right: 40px;
 }
 
-.sponsor_slider {
-    position: absolute;
-    bottom: 20px;
-}
-
 
 /* footer-body */
 
@@ -670,10 +665,6 @@ Calendar Styling */
         width: 150px;
     }
     .slider {
-        width: 200px;
-        padding-bottom: 20px;
-    }
-    .sponsor_slider {
-        margin-top: 50px;
+        width: 0;
     }
 }
