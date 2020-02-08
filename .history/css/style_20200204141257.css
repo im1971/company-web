@@ -1,8 +1,7 @@
 body {
     padding: 0;
     margin: 0;
-    /* background: #5407A1; */
-    background: #505050;
+    background: #5407A1;
     color: #fff !important;
     font-family: 'Baloo Bhai', cursive;
     position: relative;
@@ -26,15 +25,6 @@ html {
 
 ::-webkit-scrollbar-thumb {
     background: #FF0000;
-}
-
-.active {
-    background-color: #dc3545;
-    border-radius: 8px;
-}
-
-.active:hover {
-    color: #fff !important;
 }
 
 
@@ -77,21 +67,6 @@ html {
     box-shadow: none;
 }
 
-.wrap_hayday .navbar .collapse {
-    position: relative;
-}
-
-.wrap_hayday .navbar .nav-icon {
-    position: absolute;
-    left: 0;
-    top: 0;
-    padding: 0;
-}
-
-.wrap_hayday .navbar .nav-icon img {
-    height: 40px;
-}
-
 .wrap_hayday .container-fluid {
     min-height: 100vh;
 }
@@ -124,19 +99,15 @@ html {
 /* middle body */
 
 .wrap_hayday .middle_body_height {
-    height: 50vh;
+    height: 40vh;
 }
 
 .wrap_hayday .middle_body {
     text-align: center;
 }
 
-.wrap_hayday .middle_body p {
-    font-size: 22px;
-}
-
 .wrap_hayday .middle_body .logo img {
-    height: 200px;
+    height: 100px;
 }
 
 .wrap_hayday .others_page_middle {
@@ -302,8 +273,7 @@ html {
 
 .accordion .card-header {
     padding: 0;
-    /* background: #5407A1; */
-    background: #757575;
+    background: #5407A1;
     margin-bottom: 0;
     cursor: pointer;
 }
@@ -405,7 +375,7 @@ table.table td {
 }
 
 .sponsor_footer p b {
-    border-bottom: .5px solid;
+    color: #FF0000;
 }
 
 
@@ -571,7 +541,7 @@ Calendar Styling */
 #timer div {
     display: inline-block;
     line-height: 1;
-    padding: 0px 40px 0 0;
+    padding: 20px 40px 0 0;
     padding-bottom: 0;
     font-family: auto;
 }

@@ -21,7 +21,7 @@ function makeTimer() {
     $("#days").html(days + "<span>Days</span>");
     $("#hours").html(hours + "<span>Hours</span>");
     $("#minutes").html(minutes + "<span>Minutes</span>");
-    $("#seconds").html(seconds + "<span>Seconds</span>");
+    $("#seconds").html(seconds + "<span>Sec..</span>");
 
 }
 

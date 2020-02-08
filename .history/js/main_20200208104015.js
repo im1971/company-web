@@ -28,9 +28,6 @@ function makeTimer() {
 setInterval(function() { makeTimer(); }, 1000);
 
 
-// $(document).ready(function() {
-//     $('ul li a').click(function() {
-//         $('li a').removeClass("active");
-//         $(this).addClass("active");
-//     });
-// });
+$('div').click(function() {
+    $(this).toggleClass("red");
+});

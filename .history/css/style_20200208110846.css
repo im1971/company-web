@@ -405,7 +405,7 @@ table.table td {
 }
 
 .sponsor_footer p b {
-    border-bottom: .5px solid;
+    color: #FF0000;
 }
 
 
@@ -571,7 +571,7 @@ Calendar Styling */
 #timer div {
     display: inline-block;
     line-height: 1;
-    padding: 0px 40px 0 0;
+    padding: 20px 40px 0 0;
     padding-bottom: 0;
     font-family: auto;
 }
